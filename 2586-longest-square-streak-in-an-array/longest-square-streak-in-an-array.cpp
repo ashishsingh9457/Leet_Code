@@ -16,7 +16,7 @@ public:
 
             long long powe = x*x;
 
-            if(binary_search(nums.begin(), nums.end(), powe))
+            if(binary_search(nums.begin()+i, nums.end(), powe))
             {
                 int len=1;
                 while(binary_search(nums.begin(), nums.end(), powe))
